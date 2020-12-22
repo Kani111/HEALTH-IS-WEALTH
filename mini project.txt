@@ -1,0 +1,405 @@
+#include<stdio.h>
+#include<math.h>
+#include<time.h>
+
+int date_time()
+{
+
+    time_t t;
+    time(&t);
+    printf("%s",ctime(&t));
+    return 0;
+
+}
+
+void age_greater_or_equal_8()
+{
+printf("*************************************************************************************\n*************************************************************************************\n");
+
+printf("Nutrients essential for age <=8 are :- \n");
+
+printf("-------------------------------------------------------------------------------------------------------------------------------------------------\n");
+
+printf("B12 and Other B Vitamins.\n");	
+
+printf("Babies: about 0.5 micrograms daily.\n");
+
+printf("Toddlers: 0.9 micrograms daily.\n");
+
+printf("Ages 4-8: 1.2 micrograms daily.\n");
+
+printf("Vitamin B12 comes mainly from animal-based foods, like meat, poultry, fish, and eggs.\n");
+
+printf("-------------------------------------------------------------------------------------------------------------------------------------------------\n");
+
+printf("Vitamin D :- \n ");	
+
+printf("Vitamin D works with calcium to build strong bones. It may also help protect against chronic disease later in life.\n");
+	
+printf("Babies and children should get at least 400 IU of vitamin D daily \n");	
+
+printf("Some fish, including salmon, mackerel, and sardines, are excellent sources of vitamin D, as are eggs (D is found in the yolk) and fortified milk.\n");	
+
+printf("-------------------------------------------------------------------------------------------------------------------------------------------------\n");
+
+printf("Vitamin E.\n");
+
+printf("Vitamin E strengthens the body's immune system. It also helps keep blood vessels clear and flowing well.\n");
+	
+printf("Ages 1-3 need 9 IU of vitamin E daily.\n");
+
+printf("Ages 4-8 need 10.4 IU daily etc.\n");
+
+printf("-------------------------------------------------------------------------------------------------------------------------------------------------\n");
+
+printf("Calcium :- \n ");
+
+printf("Ages 1-3 :- 700 milligrams (mg) of calcium daily.\n");
+
+printf("Ages 4-8 :- 1,000 mg daily \n");
+
+printf("-------------------------------------------------------------------------------------------------------------------------------------------------\n");
+
+printf("Fibre:- \n ");
+
+printf("A 4-8-year-old, who may be eating about 1,500 calories a day, needs 25 grams of fiber a day, and that's about what I eat.\nFoods high in fiber include berries, broccoli, avocados, and oatmeal etc.\n");
+
+printf("-------------------------------------------------------------------------------------------------------------------------------------------------\n");	
+
+printf("Iron :- \n ");
+
+printf("Iron helps red blood cells carry oxygen throughout the body.\nRed meats and other animal products are high in iron.\nNon-meat sources of iron include dark green leafy veggies (spinach, collard greens, kale) and beans such as kidney.\nnavy, lima, and soy.\n");
+
+printf("*************************************************************************************\n*************************************************************************************\n");
+
+}
+
+void age_greater_equal_9_and_less_equal_18()
+{
+printf("*************************************************************************************\n*************************************************************************************\n");
+
+printf("Nutrients essential for age >= 9 and <= 18 are :- \n");
+
+printf("-------------------------------------------------------------------------------------------------------------------------------------------------\n");
+
+printf("Vitamin A :- required per day is 800 msg \n Sources :- diet include dairy products, liver, fish, and fortified cereals etc.\n");
+
+printf("-------------------------------------------------------------------------------------------------------------------------------------------------\n");
+
+printf("Vitamin b :-1.8 micrograms daily \n Sources:-eggs,liver and kidney,meat, such as chicken and red meat.\n");
+
+printf("fish, such as tuna, mackerel, and salmon,shellfish, such as oysters and clams.\n");
+
+printf("dark green vegetables, such as spinach and kale,vegetables, such as beets, avocados, and potatoes Etc.\n"); 
+
+printf("-------------------------------------------------------------------------------------------------------------------------------------------------\n");
+
+printf("Vitamin d :-older children require 600 IU per day etc.\n");
+
+printf("Sources:-oily fish – such as salmon, sardines, herring and mackerel,red meat,liver,egg yolks etc.\n");
+
+printf("-------------------------------------------------------------------------------------------------------------------------------------------------\n");
+
+printf("Calcium:-Kids and teens 9 to 18 years old need 1,300 mg of calcium a day \n ");
+
+printf("Sources:- milk,curd, Yogurt, Spinach etc.\n"); 
+
+printf("-------------------------------------------------------------------------------------------------------------------------------------------------\n");
+
+printf("Iron :- 16.3 mg/day \n Sources:-Beans,Dark green leafy vegetables, such as spinach.\nDried fruit, such as raisins and apricots etc.\n"); 
+
+printf("-------------------------------------------------------------------------------------------------------------------------------------------------\n");
+
+printf("Fibre:-31 grams of fiber per day \n Sources:-Wholegrain breakfast cereals, wholewheat pasta, wholegrain bread and oats, barley and rye.\nFruit such as berries, pears, melon and oranges.etc");
+
+printf("*************************************************************************************\n*************************************************************************************\n");
+
+}
+
+void age_greater_equal_19_and_less_50()
+{
+printf("*************************************************************************************\n*************************************************************************************\n");
+
+printf("Nutrients essential for age >=19 and <50 are :- \n ");
+
+printf("-------------------------------------------------------------------------------------------------------------------------------------------------\n");
+
+printf("Calcium:-1000 mg per day \n Source:-broccoli ,pumpkin seeds ,green beans ,onions ,almonds milk foods ,cabbage ,kale and oranges etc.\n");
+
+printf("-------------------------------------------------------------------------------------------------------------------------------------------------\n");
+ 
+printf("Iron :- 19 mg per day \n Sources:-lentils,soya beans ,peas,oats ,potatoes ,pearls,cereals,pulses and liver etc.\n"); 
+
+printf("-------------------------------------------------------------------------------------------------------------------------------------------------\n");
+
+printf("Vitamins :- 600IU(15mcg) \n ");
+ 
+printf("Source :- \n ");
+
+printf("vitamin A :— carrots, sweet potatoes, spinach, kale etc.\n");
+
+printf("vitamin B12 :— meat, poultry, fish etc.\n");
+
+printf("vitamin E :— nuts, seeds, vegetable oils etc.\n");
+
+printf("-------------------------------------------------------------------------------------------------------------------------------------------------\n");
+
+printf("Fibre :-women under 50: 21 to 25 grams per day. men under 50: 30 to 38 grams per day \n Sources:-Beans,Lentils and other beans are an easy way to sneak fiber into your diet in soups, stews and salads.\nBroccoli This veggie can get pigeonholed as the fiber vegetable.\nBerries get a lot of attention for their antioxidants, but they're full of fiber and whole grains etc\n");
+
+printf("*************************************************************************************\n*************************************************************************************\n");
+
+}
+
+void age_less_than_or_equal_50()
+{
+printf("*************************************************************************************\n*************************************************************************************");
+
+printf("\nNutrients essential for age >= 50 \n Water. As you age, you may be more prone to dehydration because your sense of thirst is not as sharp.\n Remember to sip water regularly to avoid urinary tract infections, constipation, and even confusion.");
+
+printf("-------------------------------------------------------------------------------------------------------------------------------------------------\n");
+
+printf("\nVitamin B. After the age of 50, your stomach produces less gastric acid making it harder to absorb vitamin B-12—needed to help keep blood and nerves healthy.\n Get the recommended daily intake (2.4 mcg) of B12 from fortified foods or a vitamin supplement \n Source :- milk, eggs , dark green vegetables, such as spinach and kale, vegetables, such as beets, avocados, and potatoes etc.\n");
+
+printf("-------------------------------------------------------------------------------------------------------------------------------------------------\n");
+
+printf("Vitamin D. With age, your skin is less efficient at synthesizing vitamin D,\n so consult your doctor about supplementing your diet with fortified foods or a multivitamin, especially if you’re obese or have limited sun exposure \n Source :- oily fish – \n such as salmon, sardines, herring and mackerel,red meat,liver,egg yolks,fortified foods – such as some fat spreads and breakfast cereals etc.\n");
+
+printf("-------------------------------------------------------------------------------------------------------------------------------------------------\n");
+
+printf("Vitamin E :- 15mg per day \n Sources :- Vitamin E is found in plant-based oils, nuts, seeds, fruits, and vegetables, almonds etc.\n");
+
+printf("-------------------------------------------------------------------------------------------------------------------------------------------------\n");
+
+printf("Calcium :- \n For those 51 and older, the limit is 2,000 mg a day,\n Sources :- seeds,milk,leafy green vegetables Almonds etc.\n"); 
+
+printf("-------------------------------------------------------------------------------------------------------------------------------------------------\n");
+
+printf("Iron :- 51 and older, need 8 mg of iron per day \n Sources :- \n Beans and lentils,Baked potatoes,Cashews,Dark green leafy vegetables such as spinach etc.\n");
+
+printf("-------------------------------------------------------------------------------------------------------------------------------------------------\n");
+
+printf("Fibre :- 50+ years old to get 30 grams of fiber per day and for women 50+ to get 21 grams of fiber per day \n Sources :- \n Pears, strawberries, avocados , apples , raspberries, bananas and carrots etc.\n");
+
+printf("*************************************************************************************\n*************************************************************************************\n");
+
+}
+
+int main()
+{
+    float WEIGHT,HEIGHT,BMI,x,ht;
+    int AGE;
+    printf("Enter your AGE  :-");
+    scanf("%d",&AGE);
+    printf("Enter your weight in kgs :-");
+    scanf("%f",&WEIGHT);
+    printf("Enter your height in inches :-"); 
+    // 1 foot = 12 inches
+    // n'm" => n is foot and m is inches
+    // 5'11" = (5*12)+11 inches;
+    scanf("%f",&ht); 
+    HEIGHT = ht * 0.0254;
+    x=pow(HEIGHT,2);
+    BMI=WEIGHT/x;
+    printf("BMI = %f\n",BMI);
+
+if(AGE <= 8)
+{
+    if(BMI <= 18.5)
+	   {
+	        printf("*************************************************************************************\n*************************************************************************************");
+	        printf("YOU ARE UNDERWEIGHT");
+	        printf("\n And the diet suggested for you is:-");
+ 	        printf("\n 1.) Milk 3 cups \n 2.) fruits 2 cups \n 3.) vegetables 2 cups \n 4.) 3 ounce equivalent protein \n 5.) 4 ounce equivalent grains ");
+	        printf(" \n 3 to 4 litres water per day");
+	        printf(" \n Meditation and Yoga\n ");
+	       printf("*************************************************************************************\n*************************************************************************************");
+	       
+	   }
+	else if(BMI > 18.5 && BMI <= 24.9)
+	   {
+	        printf("*************************************************************************************\n*************************************************************************************");
+	        printf("\nYOU ARE NORMAL WEIGHT");
+	        printf("\nMaintain your regular diet to be healthy and fit");
+	        printf("\nThe diet suggested is :-");
+	        printf("\n 1.) 1.5 cups fruits \n 2.) 1.5 cups vegetables\n 3.)2.5 cups milk \n 4.) 6 ounce equivalents protien \n 5.) 7 ounce equivalent grains");
+	        printf(" \n 3 to 4 litres water per day");
+	        printf(" \n Meditation and Yoga \n");
+	         printf("*************************************************************************************\n*************************************************************************************");
+	       
+	   }
+	else if(BMI > 25 && BMI <=29.9)
+	   {
+	          printf("*************************************************************************************\n*************************************************************************************");
+	        printf("\nYOU ARE OVERWEIGHT");
+	        printf("\nThe diet suggested for you is :-\n");
+	        printf(" 2 cups milk \n 4 cups fruits \n 3 cups vegetables \n 2 ounce equvalent proteins \n 4 ounce equivalent grains");
+	        printf(" \n Drink 4 to 5 litres water daily");
+	        printf(" \n Meditation and yoga including skipping\n");
+	         printf("*************************************************************************************\n*************************************************************************************");
+	       
+	   }
+	else if(BMI >= 30)
+	   {
+	          printf("*************************************************************************************\n*************************************************************************************");
+	        printf("\nYOU ARE OBESE");
+	        printf("\nThe diet suggested for you is:-\n");
+	        printf(" \n 2 cups milk \n 5 cups fruits \n 4 cups vegetables \n 1 ounce equivalent protein \n 5 ounce equivalent grains");
+	        printf(" \n Drink 4.5 to 5 litres water daily ");
+	        printf(" \nMeditaion Yoga and Exercise including skipping \n");
+	          printf("*************************************************************************************\n*************************************************************************************");
+	   }
+	age_greater_or_equal_8();
+}
+else if(AGE >= 9 && AGE <=18)	 
+{	   
+    	if(BMI <= 18.5)
+	   {
+	         printf("*************************************************************************************\n*************************************************************************************");
+	        printf("\nYOU ARE UNDERWEIGHT");
+	        printf("\nAnd the diet suggested for you is:-");
+ 	        printf("\n 1.) Milk 3 cups \n 2.) fruits 3 cups \n 3.) vegetables 4 cups \n 4.) 6 ounce equivalent protein \n 5.) 7 ounce equivalent grains ");
+	        printf(" \n 6.) 4 to 5 litres water per day");
+	        printf(" \n 7.) Meditation and Yoga\n ");
+	         printf("*************************************************************************************\n*************************************************************************************");
+	   }
+	 else if(BMI > 18.5 && BMI <= 24.9)
+	   {
+	         printf("*************************************************************************************\n*************************************************************************************");
+	        printf("\nYOU ARE NORMAL WEIGHT");
+	        printf("\nMaintain your regular diet to be healthy and fit");
+	        printf("\nThe diet suggested is :-");
+	        printf("\n 1.) 1.5 cups fruits \n 2.) 1.5 cups vegetables\n 3.)2.5 cups milk \n 4.) 6 ounce equivalents protien \n 5.) 7 ounce equivalent grains");
+	        printf(" \n 6.) 3 to 4 litres water per day");
+	        printf(" \n 7.) Meditation and Yoga \n");
+	         printf("*************************************************************************************\n*************************************************************************************");
+	       
+	   }
+	else if(BMI > 25 && BMI <=29.9)
+	   {
+	        printf("*************************************************************************************\n*************************************************************************************");
+	        printf("\nYOU ARE OVERWEIGHT");
+	        printf("\nThe diet suggested for you is :-\n");
+	        printf(" 1.) 2 cups milk \n 2.) 4 cups fruits \n 3.) 4 cups vegetables \n 4.) 3 ounce equvalent proteins \n 5.) 6 ounce equivalent grains");
+	        printf(" \n 6.) Drink 5 to 6 litres water daily");
+		printf(" \n Don't drink calorie heavy drink including juices and sports drink ");
+	        printf(" \n 7.) Meditation and yoga including skipping and outdoor games \n");
+	        printf("*************************************************************************************\n*************************************************************************************");
+	       
+	   }
+	else if(BMI >= 30)
+	   {
+	          printf("*************************************************************************************\n*************************************************************************************");
+	        printf("\nYOU ARE OBESE");
+	        printf("\nThe diet suggested for you is:-\n");
+		printf("\nPlenty of fruits and vegetables,starchy food");
+	        printf(" \n 1.) 1 cup low fat milk \n 2.) 5 cups fruits \n 3.) 5 cups vegetables \n 4.) 2 ounce equivalent protein \n 5.) 5 ounce equivalent grains");
+	        printf(" \n 6.) Drink 4.5 to 5 litres water daily ");
+	        printf(" \n 7.) Meditaion Yoga and Exercise including skipping and swimming \n");
+	         printf("*************************************************************************************\n*************************************************************************************");
+	       
+	   }
+	age_greater_equal_9_and_less_equal_18();
+}
+else if(AGE >= 18 && AGE <=50)
+{
+    	if(BMI <= 18.5)
+	   {
+	        printf("*************************************************************************************\n*************************************************************************************");
+	       printf("\nYOU ARE UNDERWEIGHT");
+	       printf("\nAnd the diet suggested for you is:-");	
+ 	       printf("\n 1.) Milk 4 cups \n 2.) fruits 4 cups \n 3.) vegetables 4 cups \n 4.) 7 ounce equivalent protein \n 5.) 4 ounce equivalent grains ");
+	       printf(" \n 5 to 6 litres water per day");
+	       printf(" \n Meditation and Yoga \n");
+	         printf("*************************************************************************************\n*************************************************************************************");
+	       
+	   }
+    	else if(BMI > 18.5 && BMI <= 24.9)
+	   {
+	         printf("*************************************************************************************\n*************************************************************************************");
+	        printf("\nYOU ARE NORMAL WEIGHT");
+	        printf("\nMaintain your regular diet to be healthy and fit");
+	        printf("\nThe diet suggested is :-");
+	        printf("\n 1.) 1.5 cups fruits \n 2.) 1.5 cups vegetables\n 3.)2.5 cups milk \n 4.) 6 ounce equivalents protien \n 5.) 7 ounce equivalent grains");
+	        printf(" \n 3 to 4 litres water per day");
+	        printf(" \n Meditation and Yoga \n");
+	         printf("*************************************************************************************\n*************************************************************************************");
+	   }
+	else if(BMI > 25 && BMI <= 29.9)
+	   {
+	         printf("*************************************************************************************\n*************************************************************************************");
+	        printf("\nYOU ARE OVERWEIGHT");
+	        printf("\nThe diet suggested for you is :-\n");
+	        printf(" 1.) 2 cups fat less milk \n 2.) 4 cups fruits \n 3.) 4 cups vegetables \n 4.) 3 ounce equvalent proteins \n 5.) 5 ounce equivalent grains");
+	        printf(" \n Drink 5 litres water daily");
+	        printf(" \n Meditation and yoga including skipping and outdoor games\n");
+	         printf("*************************************************************************************\n*************************************************************************************");
+	       
+	   }
+	else if(BMI >= 30)
+	   {
+	         printf("*************************************************************************************\n*************************************************************************************");
+	        printf("\nYOU ARE OBESE");
+	        printf("\nThe diet suggested for you is:-\n");
+		printf("\nPlenty of fruits and vegetables,starchy food");
+	        printf(" \n 1.) 1 cup low fat milk \n 2.) 5 cups fruits \n 3.) 5 cups vegetables \n 4.) 2 ounce equivalent protein \n 5.) 5 ounce equivalent grains");
+	        printf(" \n 6.) Drink 4.5 to 5 litres water daily ");
+	        printf(" \n 7.) Meditaion Yoga and Exercise including skipping and swimming and outdoor games \n");
+	        printf("*************************************************************************************\n*************************************************************************************");
+	       
+	   }
+	age_greater_equal_19_and_less_50();
+}
+else if(AGE >= 50)
+{ 
+    if(BMI <= 18.5)
+	   {
+	         printf("*************************************************************************************\n*************************************************************************************");
+	        printf("\nYOU ARE UNDERWEIGHT");
+	        printf("\nAnd the diet suggested for you is:-");
+ 	        printf("\n 1.) Milk 3 cups \n 2.) fruits 2 cups \n 3.) vegetables 2 cups \n 4.) 3 ounce equivalent protein \n 5.) 4 ounce equivalent grains ");
+	        printf(" \n 6.) Drink 3 to 4 litres water per day");
+	        printf(" \n 7.) Meditation and Yoga \n");
+	         printf("*************************************************************************************\n*************************************************************************************");
+	       
+	   }
+	else if(BMI > 18.5 && BMI <= 24.9)
+	   {
+	        printf("*************************************************************************************\n*************************************************************************************");
+	        printf("\nYOU ARE NORMAL WEIGHT");
+	        printf("\nMaintain your regular diet to be healthy and fit");
+	        printf("\nThe diet suggested is :-");
+	        printf("\n 1.) 1.5 cups fruits \n 2.) 1.5 cups vegetables\n 3.)2.5 cups milk \n 4.) 6 ounce equivalents protien \n 5.) 7 ounce equivalent grains");
+	        printf(" \n 3 to 4 litres water per day");
+	        printf(" \n Meditation and Yoga\n ");
+	          printf("*************************************************************************************\n*************************************************************************************");
+	       
+	   }
+	else if(BMI > 25 && BMI <=29.9)
+	   {
+	          printf("*************************************************************************************\n*************************************************************************************");
+	        printf("\nYOU ARE OVERWEIGHT");
+	        printf("\nThe diet suggested for you is :-\n");
+	        printf(" 2 cups milk \n 4 cups fruits \n 3 cups vegetables \n 2 ounce equvalent proteins \n 4 ounce equivalent grains");
+	        printf(" \n Drink 4 to 5 litres water daily");
+	        printf(" \n Meditation and yoga including skipping\n");
+	          printf("*************************************************************************************\n*************************************************************************************");
+	       
+	   }
+	else if(BMI >= 30)
+	   {
+	         printf("*************************************************************************************\n*************************************************************************************");
+	        printf("\nYOU ARE OBESE");
+	        printf("\nThe diet suggested for you is:-\n");
+	        printf(" \n 2 cups milk \n 5 cups fruits \n 4 cups vegetables \n 1 ounce equivalent protein \n 5 ounce equivalent grains");
+	        printf(" \n Drink 4.5 to 5 litres water daily ");
+	        printf(" \nMeditaion Yoga and Exercise including skipping\n ");
+	         printf("*************************************************************************************\n*************************************************************************************");
+	   }
+	age_less_than_or_equal_50();
+}
+    date_time();
+    printf("\nHAIL INDIA");
+    
+    
+return 0;
+}
